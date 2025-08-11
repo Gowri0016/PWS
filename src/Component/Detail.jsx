@@ -27,7 +27,7 @@ export default function AWSNetflixClone() {
               hidden: { opacity: 0, y: 20 },
               visible: { opacity: 1, y: 0 },
             }}
-            className="text-2xl md:text-4xl lg:text-5xl font-bold drop-shadow-lg bg-gradient-to-r from-pink-400 via-purple-400 to-blue-400 bg-clip-text text-transparent"
+            className="text-2xl mt-16 md:text-4xl lg:text-5xl font-bold drop-shadow-lg bg-gradient-to-r from-pink-400 via-purple-400 to-blue-400 bg-clip-text text-transparent"
           >
             Welcome to PWS Poeage Web Sevices
           </motion.h1>
