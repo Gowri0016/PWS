@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 export default function AWSNetflixClone() {
   return (
-    <div className="relative bg-black text-white h-[350px] md:h-[500px] lg:h-[600px] overflow-hidden">
+    <div className="relative bg-black text-white h-[350px] md:h-[500px] lg:h-[600px] mt-8 overflow-hidden">
       {/* Static gradient background */}
       <div className="absolute inset-0 bg-gradient-to-t from-black via-black/60 to-transparent" />
 
