@@ -47,7 +47,7 @@ export default function AWSCloudLogin() {
         <form className="space-y-3">
           {/* Email */}
           <div className="flex items-center bg-white/20 rounded-md px-3 py-2 border border-white/30 focus-within:border-yellow-400 transition">
-            <FaUser className="text-yellow-400 mr-3" />
+            <FaUser className="text-white mr-3" />
             <input
               type="text"
               placeholder="Email or AWS account ID"
@@ -57,7 +57,7 @@ export default function AWSCloudLogin() {
 
           {/* Password */}
           <div className="flex items-center bg-white/20 rounded-md px-3 py-2 border border-white/30 focus-within:border-yellow-400 transition">
-            <FaLock className="text-yellow-400 mr-3" />
+            <FaLock className="text-white mr-3" />
             <input
               type="password"
               placeholder="Password"
@@ -69,7 +69,7 @@ export default function AWSCloudLogin() {
           <motion.button
             whileHover={{ scale: 1.05, boxShadow: "0 0 15px rgba(245,158,11,0.7)" }}
             whileTap={{ scale: 0.97 }}
-            className="w-full bg-gradient-to-r from-yellow-400 via-yellow-500 to-yellow-600 text-gray-900 font-semibold py-2 rounded-md shadow-md text-sm"
+            className="w-full bg-gradient-to-r from-pink-400 via-purple-400 to-blue-400 text-white font-semibold py-2 rounded-md shadow-md text-sm"
           >
             Sign In
           </motion.button>
@@ -87,8 +87,8 @@ export default function AWSCloudLogin() {
         </div>
 
         {/* Create Account Button */}
-        <button className="w-full border border-yellow-400 rounded-md py-2 bg-yellow-400/20 hover:bg-yellow-400/30 text-yellow-300 text-xs">
-          Create your AWS account
+        <button className="w-full border border-yellow-400 rounded-md py-2 bg-gradient-to-r from-pink-400/20 via-purple-400/20 to-blue-400 hover:bg-blue-400/30 text-yellow-300 text-xs">
+          Create your PWS account
         </button>
       </motion.div>
     </div>
