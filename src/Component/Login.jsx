@@ -40,7 +40,7 @@ export default function AWSCloudLogin() {
 
         {/* Title */}
         <h2 className="text-xl font-bold text-white text-center mb-3">
-          AWS Cloud Login
+          PWS Cloud Login
         </h2>
 
         {/* Form */}
@@ -50,7 +50,7 @@ export default function AWSCloudLogin() {
             <FaUser className="text-white mr-3" />
             <input
               type="text"
-              placeholder="Email or AWS account ID"
+              placeholder="Email or PWS account ID"
               className="bg-transparent outline-none text-white placeholder-white/70 w-full text-sm"
             />
           </div>
@@ -77,12 +77,12 @@ export default function AWSCloudLogin() {
 
         {/* Footer Links */}
         <p className="text-xs text-white/70 mt-3 text-center">
-          By continuing, you agree to AWS's <span className="text-yellow-300 hover:underline cursor-pointer">Terms of Service</span> and <span className="text-yellow-300 hover:underline cursor-pointer">Privacy Policy</span>.
+          By continuing, you agree to PWS's <span className="text-yellow-300 hover:underline cursor-pointer">Terms of Service</span> and <span className="text-yellow-300 hover:underline cursor-pointer">Privacy Policy</span>.
         </p>
 
         <div className="my-4 flex items-center">
           <hr className="flex-1 border-white/30" />
-          <span className="px-2 text-white/60 text-xs">New to AWS?</span>
+          <span className="px-2 text-white/60 text-xs">New to PWS?</span>
           <hr className="flex-1 border-white/30" />
         </div>
 
