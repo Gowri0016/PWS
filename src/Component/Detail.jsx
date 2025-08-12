@@ -36,7 +36,7 @@ export default function AWSCloudStorageHero() {
               hidden: { opacity: 0, y: 20 },
               visible: { opacity: 1, y: 0 },
             }}
-            className="text-3xl md:text-5xl lg:text-6xl font-extrabold drop-shadow-lg bg-gradient-to-r from-blue-400 via-cyan-400 to-green-400 bg-clip-text text-transparent"
+            className="text-3xl md:text-5xl lg:text-6xl font-extrabold drop-shadow-lg bg-gradient-to-r from-pink-400 via-purple-400 to-blue-400 bg-clip-text text-transparent"
           >
             Next-Gen Cloud Storage Infrastructure
           </motion.h1>
@@ -61,7 +61,7 @@ export default function AWSCloudStorageHero() {
             <motion.button
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.95 }}
-              className="px-6 py-3 bg-gradient-to-r from-blue-500 via-cyan-500 to-green-500 rounded-full text-white font-semibold shadow-lg hover:shadow-cyan-400/50 transition-all duration-300"
+              className="px-6 py-3 bg-gradient-to-r from-pink-400 via-purple-400 to-blue-400 rounded-full text-white font-semibold shadow-lg hover:shadow-cyan-400/50 transition-all duration-300"
             >
               Get Started
             </motion.button>

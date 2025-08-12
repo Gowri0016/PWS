@@ -36,7 +36,8 @@ export default function Header() {
           {/* Logo */}
           <Link to="/" className="flex-shrink-0">
             <motion.div>
-              <img className="w-36" src={Logo} alt="Logo" />
+              <img className="w-24" src={Logo} alt="Logo" />
+
             </motion.div>
           </Link>
 
