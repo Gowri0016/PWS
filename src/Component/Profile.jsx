@@ -28,7 +28,7 @@ export default function AwsProfessionalDashboard() {
   ];
 
   return (
-    <div className="min-h-screen bg-black text-white">
+    <div className="min-h-screen mt-16 bg-black text-white">
       <div className="flex">
   {/* Sidebar */}
   <aside
