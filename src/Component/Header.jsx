@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Logo from '../Asset/1.png';
+import Logo from '../Asset/3.png';
 import { FaUserCircle } from 'react-icons/fa';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Link } from 'react-router-dom';

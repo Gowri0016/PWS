@@ -1,13 +1,22 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
-export default function AWSNetflixClone() {
+export default function AWSCloudStorageHero() {
   return (
-    <div className="relative bg-black text-white h-[350px] md:h-[500px] lg:h-[600px] overflow-hidden">
-      {/* Static gradient background */}
-      <div className="absolute inset-0 bg-gradient-to-t from-black via-black/60 to-transparent" />
+    <div className="relative bg-black text-white h-[400px] md:h-[550px] lg:h-[650px] overflow-hidden">
+      {/* Animated cloud server background */}
+      <video
+        autoPlay
+        loop
+        muted
+        className="absolute inset-0 w-full h-full object-cover opacity-50"
+        src="https://cdn.coverr.co/videos/coverr-cloud-data-center-1080p.mp4"
+      />
 
-      {/* Text overlay */}
+      {/* Gradient overlay */}
+      <div className="absolute inset-0 bg-gradient-to-t from-black via-black/70 to-transparent" />
+
+      {/* Content overlay */}
       <div className="absolute inset-0 flex items-center justify-center px-4 md:px-8">
         <motion.div
           initial="hidden"
@@ -20,16 +29,16 @@ export default function AWSNetflixClone() {
               transition: { duration: 0.8, ease: 'easeOut', staggerChildren: 0.2 },
             },
           }}
-          className="text-center space-y-5 max-w-2xl"
+          className="text-center space-y-5 max-w-3xl"
         >
           <motion.h1
             variants={{
               hidden: { opacity: 0, y: 20 },
               visible: { opacity: 1, y: 0 },
             }}
-            className="text-2xl mt-16 md:text-4xl lg:text-5xl font-bold drop-shadow-lg bg-gradient-to-r from-pink-400 via-purple-400 to-blue-400 bg-clip-text text-transparent"
+            className="text-3xl md:text-5xl lg:text-6xl font-extrabold drop-shadow-lg bg-gradient-to-r from-blue-400 via-cyan-400 to-green-400 bg-clip-text text-transparent"
           >
-            Welcome to PWS Poeage Web Sevices
+            Next-Gen Cloud Storage Infrastructure
           </motion.h1>
 
           <motion.p
@@ -39,22 +48,32 @@ export default function AWSNetflixClone() {
             }}
             className="text-sm md:text-lg lg:text-xl text-gray-300 drop-shadow-sm"
           >
-            Experience high-performance streaming and secure cloud storage solutions. 
-            Our platform ensures lightning-fast performance, scalability, and reliability for all your digital needs.
+            Experience lightning-fast access, encrypted storage, and global availability. Designed for businesses and creators who demand speed, scalability, and security.
           </motion.p>
 
-          {/* Get in Touch Button */}
-          <motion.button
+          <motion.div
+            className="flex flex-wrap justify-center gap-4"
             variants={{
               hidden: { opacity: 0, y: 20 },
               visible: { opacity: 1, y: 0 },
             }}
-            whileHover={{ scale: 1.1 }}
-            whileTap={{ scale: 0.95 }}
-            className="mt-4 px-6 py-3 bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 rounded-full text-white font-semibold shadow-lg hover:shadow-pink-400/50 transition-all duration-300"
           >
-            Get in Touch
-          </motion.button>
+            <motion.button
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.95 }}
+              className="px-6 py-3 bg-gradient-to-r from-blue-500 via-cyan-500 to-green-500 rounded-full text-white font-semibold shadow-lg hover:shadow-cyan-400/50 transition-all duration-300"
+            >
+              Get Started
+            </motion.button>
+
+            <motion.button
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.95 }}
+              className="px-6 py-3 bg-gray-800 rounded-full text-white font-semibold shadow-lg hover:bg-gray-700 transition-all duration-300"
+            >
+              Learn More
+            </motion.button>
+          </motion.div>
         </motion.div>
       </div>
     </div>
