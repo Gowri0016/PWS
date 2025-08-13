@@ -28,7 +28,7 @@ export default function AwsProfessionalDashboard() {
   ];
 
   return (
-    <div className="min-h-screen mt-16 bg-black text-white">
+    <div className="min-h-screen mt-20 bg-black text-white">
       <div className="flex">
   {/* Sidebar */}
   <aside
@@ -216,7 +216,7 @@ export default function AwsProfessionalDashboard() {
                 className="bg-black/35 border 2xl border-white p-4 rounded-2xl shadow flex flex-col gap-2"
               >
                 <div className="text-sm text-slate-500">{service}</div>
-                <div className="font-semibold">Manage</div>
+                <div className="font-semibold">0</div>
               </motion.div>
             ))}
           </div>
